@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Permanent+Marker&display=swap');
+
+.font--marker {
+   font-family: 'Permanent Marker', cursive;
+}
+
+.font--cursive {
+   font-family: 'Amatic SC', cursive;
+}
+
+.spotty {
+   background-clip: text;
+   background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
+   background-size: 50%;
+   --color: #6668;
+   color: var(--color);
+   -webkit-text-stroke: 0.0075em var(--color);
+}
+
+.spotty.spotty--green { --color: #9e18 }
+.spotty.spotty--pink  { --color: #e198 }
+.spotty.spotty--red   { --color: #e118 }
+
+/*---------------------------------*/
+
+.argyle {
+   background-clip: text;
+   color: transparent;
+
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='90' %3E%3Cg transform='scale(1 1.5)'%3E%3Crect width='99' height='99' fill='%23269' %3E%3C/rect%3E%3Crect width='42.42' height='42.42' transform='translate(30 0) rotate(45)' fill='%230004'%3E%3C/rect%3E%3Crect width='99' height='1' transform='rotate(45)' fill='%23ffc66d97'%3E%3C/rect%3E%3Crect width='99' height='1' transform='translate(0 60) rotate(-45)' fill='%23ffc66d97'%3E%3C/rect%3E%3C/g%3E%3C/svg%3E");
+   -webkit-text-stroke: 0.01em #fff6;
+}
+
+.argyle--purple {
+   background-clip: text;
+   color: transparent;
+
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='90' %3E%3Cg transform='scale(1 1.5)'%3E%3Crect width='99' height='99' fill='%23a012BE' %3E%3C/rect%3E%3Crect width='42.42' height='42.42' transform='translate(30 0) rotate(45)' fill='%230004'%3E%3C/rect%3E%3Crect width='99' height='1' transform='rotate(45)' fill='%23ffc66d97'%3E%3C/rect%3E%3Crect width='99' height='1' transform='translate(0 60) rotate(-45)' fill='%23ffc66d97'%3E%3C/rect%3E%3C/g%3E%3C/svg%3E");
+   -webkit-text-stroke: 0.01em #fff6;
+}
+
+/*---------------------------------*/
+
+.three-d--red {
+   color: #FF4136;
+   text-shadow:
+      0.01em 0.01em gold,
+      0.02em 0.02em gold,
+      0.03em 0.03em gold,
+      0.04em 0.04em gold;
+   -webkit-text-stroke-width: 0.02em;
+   -webkit-text-stroke-color: #FF7156;
+}
+
+.stripes {
+   background-clip: text;
+   color: transparent;
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='30'%3E %3Crect width='90' height='30' fill='%230066dd'%3E%3C/rect%3E %3Crect width='90' height='18' fill='%232699f4' %3E%3C/rect%3E %3C/svg%3E");
+   -webkit-text-stroke: 0.02em #0003;
+}
+
+.stripes--purple {
+   background-clip: text;
+   color: transparent;
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='30'%3E %3Crect width='90' height='30' fill='%23a012BE99'%3E%3C/rect%3E %3Crect width='90' height='18' fill='%23994499' %3E%3C/rect%3E %3C/svg%3E");
+   -webkit-text-stroke: 0.01em #fff6;
+}
+
+.gradient--white-blue-red {
+   background-clip: text;
+   color: transparent;
+   background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+}
+
+.gradient--dark-teal-egg {
+   background-clip: text;
+   color: transparent;
+   background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+
+.gradient--mars-egg {
+   background-clip: text;
+   color: transparent;
+   background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+   -webkit-text-stroke: 0.01em #fff6;
+}

@@ -1,0 +1,5 @@
+.step-father { height: 100% }
+.step-father div { margin: 0.3em -0.1em }
+.step-father div:nth-of-type(1){ align-self: flex-end }
+.step-father div:nth-of-type(2){ align-self: center }
+.step-father div:nth-of-type(3){ align-self: flex-start; margin-left: 0.1em }

@@ -1,0 +1,8 @@
+div.broken {
+   background-clip: text;
+   background-image: url(broken-glass.png);
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: 120%;
+   color: transparent;
+}

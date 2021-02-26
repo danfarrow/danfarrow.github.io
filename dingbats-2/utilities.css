@@ -1,0 +1,55 @@
+.bold { font-weight: bold }
+.centre { text-align: center }
+.colour-black { color: #333333 }
+.colour-blue { color: #0074D9 }
+.colour-gold {
+      background:
+         linear-gradient(
+            45deg,
+            rgba(255,255,44,1) 0%,
+            rgba(200,179,44,1) 50%,
+            rgba(255,255,44,1) 100%
+         );
+      color: transparent;
+      -webkit-background-clip: text;
+}
+.colour-green { color: #2ECC40 }
+.colour-grey { color: #555 }
+.colour-maroon { color: #85144b }
+.colour-red { color: #FF4136 }
+.colour-pink { color: #F012BE }
+.colour-purple { color: #B10DC9 }
+.colour-white { color: #efefef }
+.flex { display: flex }
+.flip-x { transform: scaleX( -1 ) }
+.flip-y { transform: scaleY( -1 ) }
+.font-mono { font-family: monospace }
+.font-serif { font-family: serif }
+.left { text-align: left }
+.lower { transform: translateY(0.46em) }
+.medium { font-size: 10vw }
+.narrow { letter-spacing:-0.2em }
+.right { text-align: right }
+.rise { transform: translateY(-0.46em) }
+.rot45 { transform: rotate( 45deg ) }
+.rot90 { transform: rotate( 90deg ) }
+.rot-45 { transform: rotate( -45deg ) }
+.rot-90 { transform: rotate( -90deg ) }
+.shadow-hard { text-shadow: 0.015em 0.05em 0 #000c }
+.shadow-soft { text-shadow: 0 0.05em 0.03em #0006 }
+.size-giant { font-size: 24vw; }
+.size-huge { font-size: 20vw }
+.size-large { font-size: 13vw }
+.size-medium { font-size: 10vw }
+.size-small { font-size: 6vw }
+.size-tiny { font-size: 3vw }
+.stroke {
+   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 0.02em;
+   -webkit-text-stroke-color: currentcolor;
+}
+.stroke--thin {
+   -webkit-text-stroke-width: 0.01em;
+}
+.tight { line-height:0.8 }
+.vertical { text-orientation: upright; writing-mode: vertical-rl }

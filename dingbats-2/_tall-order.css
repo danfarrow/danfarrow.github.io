@@ -1,0 +1,4 @@
+.tall-order span {
+   text-transform: uppercase;
+   transform: scaleY(400%) scaleX(28%);
+}

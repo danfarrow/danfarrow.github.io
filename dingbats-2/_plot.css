@@ -1,0 +1,30 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@200..900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900');
+.plot {
+   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPgo8cGF0aCBkPSJNLTIgMTBMMTAgLTJaTTEwIDZMNiAxMFpNLTIgMkwyIC0yIiBzdHJva2U9IiMyMjIiIHN0cm9rZS13aWR0aD0iNC41Ij48L3BhdGg+Cjwvc3ZnPg=="),url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPgo8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgyPSIxIiB5Mj0iMSI+CjxzdG9wIHN0b3AtY29sb3I9IiNGMTkiPjwvc3RvcD4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMENGIj48L3N0b3A+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZykiPjwvcmVjdD4KPC9zdmc+");
+   /*color: transparent;*/
+   font-family: 'Crimson Pro', sans-serif;
+}
+
+.plot span {
+   color: rgba(0,133,159,1);
+}
+
+.plot span:nth-of-type(1) { font-weight: 200; text-shadow: 1px 1px 0 #000d }
+.plot span:nth-of-type(2) { font-weight: 400; text-shadow:
+   1px 1px 0 #000d,
+   3px 3px 0 #000d,
+   5px 5px 0 #000d,
+   7px 7px 0 #000d
+}
+.plot span:nth-of-type(3) { font-weight: 500; text-shadow: 11px 11px 0 #000d }
+.plot span:nth-of-type(4) { font-weight: 900; text-shadow:
+   1px 1px 0 #000d,
+   3px 3px 0 #000d,
+   5px 5px 0 #000d,
+   7px 7px 0 #000d,
+   9px 9px 0 #000d,
+   11px 11px 0 #000d,
+   13px 13px 0 #000d,
+   15px 15px 0 #000d
+}
